@@ -13,10 +13,8 @@ function preencherVetor(vetor, tamanho){
 
 function bubbleSort(numero, tamanho){
     while (ordenado == false){
-        for (i=0; i<tamanho-1; i++){
+        for (i=0; i<=tamanho-1; i++){
             if (numero[i] < numero[i + 1]){
-                contador += 1;
-            } else if (numero[i] == numero[i + 1]){
                 contador += 1;
             } else {
                 var aux = numero[i];
